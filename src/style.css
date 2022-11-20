@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+}
+
+.container{
+    width: 75%;
+}
+
+.container-lg{
+    width: 85%;
+}
+
+.bg-page1{
+    background-color: #f1929b;
+}
+
+.text-page1{
+    color: #f1929b;
+}
+
+.bg-primaryBlack{
+    background-color: #070201;
+}
+
+.bg-primarytextBlack{
+    background-color: #3e3e3e;
+}
+
+.bg-page2{
+    background-color: #3e3e3e;
+}
+
+.text-primaryWhite{
+    color:#fcfcfc;
+}
+
+.text-primaryPink{
+    color:#f39fa3;
+}
+
+nav > a{
+    padding: 20px 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+nav a:hover{
+    color: white;
+}
